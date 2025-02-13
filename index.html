@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Axis Uno - Electronic Music Producer & DJ</title>
+  <meta name="description" content="Axis Uno é um produtor de música eletrônica e DJ baseado em Portugal. Explore seu portfólio, ouça suas músicas e assista performances ao vivo.">
+  <meta name="keywords" content="Axis Uno, DJ, Música Eletrônica, Techno, Producer, Portugal, Electronic Music">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://axisuno.com/">
+  <meta property="og:title" content="Axis Uno - Electronic Music Producer & DJ">
+  <meta property="og:description" content="Axis Uno é um produtor de música eletrônica e DJ baseado em Portugal. Explore seu portfólio, ouça suas músicas e assista performances ao vivo.">
+  <meta property="og:image" content="assets/img/hero-bg.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://axisuno.com/">
+  <meta property="twitter:title" content="Axis Uno - Electronic Music Producer & DJ">
+  <meta property="twitter:description" content="Axis Uno é um produtor de música eletrônica e DJ baseado em Portugal. Explore seu portfólio, ouça suas músicas e assista performances ao vivo.">
+  <meta property="twitter:image" content="assets/img/hero-bg.jpg">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Custom CSS File -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <style>
+    .responsive-iframe {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 ratio */
+    }
+    .responsive-iframe iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .video-container {
+      position: relative;
+      display: inline-block;
+      max-width: 600px; /* largura máxima */
+      height: 337.5px; /* altura fixa para manter proporção 16:9 */
+      margin: auto;
+      overflow: hidden; /* impede que o vídeo ultrapasse os limites */
+    }
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* mantém a proporção do vídeo */
+    }
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.8);
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10; /* garante que o botão fique acima do vídeo */
+    }
+  </style>
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Axis Uno</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#shows">Shows</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="overlay"></div>
+      <img src="assets/img/portfolio/DSC08873.JPG" alt="Axis Uno Performance" data-aos="fade-in">
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Axis Uno</h2>
+        <p><span class="typed" data-typed-items="Electronic Music Artist, Live Performer, Sound Designer"></span></p>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="about-me">
+              <h2 class="section-title">BIO</h2>
+              <div class="bio-text">
+                <div id="bio-portuguese" class="bio-content">
+                  <p>
+                    Originário de Recife, Brasil, e criado sob o céu de Portugal, Nicolas Silva é a mente criativa por trás do projeto musical Axis Uno.
+                    Com uma carreira que abrange duas décadas, Nicolas traz uma abordagem única à música eletrônica como um live act, 
+                    cativando públicos com suas performances vibrantes e autênticas.
+                  </p>
+                  <p>
+                    A jornada de Axis Uno é uma fusão de suas raízes brasileiras e suas experiências em Portugal, 
+                    criando uma sinfonia que transcende fronteiras culturais. Seus live acts não são apenas uma experiência auditiva,
+                    são uma jornada sensorial que captura a riqueza sonora de sua vida.
+                  </p>
+                  <p>
+                    Prepare-se para mergulhar na jornada sonora de Axis Uno, onde as batidas contam a história de um artista que encontrou sua voz na convergência de Recife e Portugal.
+                    Cada performance é uma celebração da diversidade, uma experiência autêntica que ecoa as nuances de sua vida musical.
+                  </p>
+                </div>
+
+                <div id="bio-english" class="bio-content" style="display:none;">
+                  <p>
+                    Originating from Recife, Brazil, and raised under the skies of Portugal, Nicolas Silva is the creative mind behind the musical project Axis Uno.
+                    With a career spanning two decades, Nicolas brings a unique approach to electronic music as a live act, 
+                    captivating audiences with his vibrant and authentic performances.
+                  </p>
+                  <p>
+                    Axis Uno's journey is a fusion of his Brazilian roots and his experiences in Portugal, creating a symphony that transcends cultural boundaries. 
+                    His live acts are not just an auditory experience; they are a sensory journey that captures the sonic richness of his life.
+                  </p>
+                  <p>
+                    Get ready to dive into the sonic journey of Axis Uno, where the beats tell the story of an artist who found his voice in the convergence of Recife and Portugal.
+                    Each performance is a celebration of diversity, an authentic experience that echoes the nuances of his musical life.
+                  </p>
+                </div>
+
+                <button id="toggle-language" style="margin-top: 10px;">PT / EN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Music Section -->
+    <section id="music" class="services section">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Music</h2>
+          <p>Live Performances</p>
+        </div>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2032994704%3Fsecret_token%3Ds-yYUhFhJM6ZW&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;">
+            <a href="https://soundcloud.com/axisuno" title="Axis Uno" target="_blank" style="color: #cccccc; text-decoration: none;">Axis Uno</a> · 
+            <a href="https://soundcloud.com/axisuno/axis-uno-7-years-of-untitled/s-yYUhFhJM6ZW" title="Axis Uno @ 7 Years Of Untitled" target="_blank" style="color: #cccccc; text-decoration: none;">Axis Uno @ 7 Years Of Untitled</a>
+        </div>
+        <div class="row gy-4">
+          <!-- Spotify Embed -->
+          <div class="col-lg-6">
+            <div class="service-item">
+              <h3>Spotify</h3>
+              <div class="spotify-embed mb-4">
+                <iframe style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/artist/1YIhfD7ZwKfFop8Wu50X7A?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="352" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                </iframe>
+              </div>
+              <h3>Beatport</h3>
+              <div class="beatport-embed">
+                <iframe src="https://embed.beatport.com/?id=4321305&type=release" 
+                        width="100%" 
+                        height="362" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        style="max-width:600px;">
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- YouTube Videos -->
+          <div class="col-lg-6">
+            <div class="service-item">
+              <h3>Live Sets</h3>
+              <div class="youtube-embed mb-4 responsive-iframe">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fw9m9DpW9Q4?si=QvnvEF-UJaW2cMHK&start=6556" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="youtube-embed responsive-iframe">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/-jfIZ2ZBJoQ?si=hCpL83MCWVRyhaWm&start=85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="youtube-embed responsive-iframe">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/urVCCbPbStg?si=-CRYYl5dGaXQ9clV" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Music Section -->
+
+   
+
+    
+
+
+    <section id="shows" class="services section">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Upcoming Shows</h2>
+          <p>Check out the latest dates and locations!</p>
+        </div>
+        <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+        <a class="bit-widget-initializer"
+            data-artist-name="id_15574898"
+            data-events-to-display=""
+            data-background-color="rgba(0,0,0,1)"
+            data-separator-color="rgba(221,221,221,1)"
+            data-text-color="rgba(74,144,226,1)"
+            data-font="American Typewriter"
+            data-auto-style="true"
+            data-button-label-capitalization="uppercase"
+            data-header-capitalization="uppercase"
+            data-location-capitalization="uppercase"
+            data-venue-capitalization="uppercase"
+            data-display-local-dates="true"
+            data-local-dates-position="tab"
+            data-display-past-dates="true"
+            data-display-details="false"
+            data-display-lineup="false"
+            data-display-start-time="true"
+            data-social-share-icon="false"
+            data-display-limit="all"
+            data-date-format="MMM. D, YYYY"
+            data-date-orientation="horizontal"
+            data-date-border-color="#4A4A4A"
+            data-date-border-width="1px"
+            data-date-border-radius="10px"
+            data-event-ticket-cta-size="medium"
+            data-event-custom-ticket-text=""
+            data-event-ticket-text="TICKETS"
+            data-event-ticket-icon="false"
+            data-event-ticket-cta-text-color="rgba(255,255,255,1)"
+            data-event-ticket-cta-bg-color="rgba(74,74,74,1)"
+            data-event-ticket-cta-border-color="rgba(74,74,74,1)"
+            data-event-ticket-cta-border-width="0px"
+            data-event-ticket-cta-border-radius="2px"
+            data-sold-out-button-text-color="rgba(255,255,255,1)"
+            data-sold-out-button-background-color="rgba(74,74,74,1)"
+            data-sold-out-button-border-color="rgba(74,74,74,1)"
+            data-sold-out-button-clickable="true"
+            data-event-rsvp-position="left"
+            data-event-rsvp-cta-size="medium"
+            data-event-rsvp-only-show-icon="false"
+            data-event-rsvp-text="RSVP"
+            data-event-rsvp-icon="false"
+            data-event-rsvp-cta-text-color="rgba(74,74,74,1)"
+            data-event-rsvp-cta-bg-color="rgba(255,255,255,1)"
+            data-event-rsvp-cta-border-color="rgba(74,74,74,1)"
+            data-event-rsvp-cta-border-width="1px"
+            data-event-rsvp-cta-border-radius="2px"
+            data-follow-section-position="top"
+            data-follow-section-alignment="center"
+            data-follow-section-header-text="Get updates on new shows, new music, and more"
+            data-follow-section-cta-size="medium"
+            data-follow-section-cta-text="FOLLOW"
+            data-follow-section-cta-icon="false"
+            data-follow-section-cta-text-color="rgba(255,255,255,1)"
+            data-follow-section-cta-bg-color="rgba(74,74,74,1)"
+            data-follow-section-cta-border-color="rgba(74,74,74,1)"
+            data-follow-section-cta-border-width="0px"
+            data-follow-section-cta-border-radius="2px"
+            data-play-my-city-position="hidden"
+            data-play-my-city-alignment="center"
+            data-play-my-city-header-text="Don’t see a show near you?"
+            data-play-my-city-cta-size="medium"
+            data-play-my-city-cta-text="REQUEST A SHOW"
+            data-play-my-city-cta-icon="false"
+            data-play-my-city-cta-text-color="rgba(255,255,255,1)"
+            data-play-my-city-cta-bg-color="rgba(74,74,74,1)"
+            data-play-my-city-cta-border-color="rgba(74,74,74,1)"
+            data-play-my-city-cta-border-width="0px"
+            data-play-my-city-cta-border-radius="2px"
+            data-optin-font=""
+            data-optin-text-color=""
+            data-optin-bg-color=""
+            data-optin-cta-text-color=""
+            data-optin-cta-bg-color=""
+            data-optin-cta-border-width=""
+            data-optin-cta-border-radius=""
+            data-optin-cta-border-color=""
+            data-language="en"
+            data-layout-breakpoint="900"
+            data-app-id=""
+            data-affil-code=""
+            data-bit-logo-position="hidden"
+            data-bit-logo-color="rgba(74,144,226,1)"
+            ></a>
+      </div>
+    </section><!-- /Shows Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Portfolio</h2>
+          <p>Live Performances & Press Kit</p>
+        </div>
+        <div class="row gy-4 portfolio-container">
+          <!-- Photos Section -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/Axis Untitled 7 years.jpg" class="img-fluid" alt="Axis Untitled 7 Years">
+              <div class="portfolio-info">
+                <h4>Axis Untitled 7 Years</h4>
+                <a href="assets/img/portfolio/Axis Untitled 7 years.jpg" title="Axis Untitled 7 Years" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/press kit BW.jpg" class="img-fluid" alt="Press Kit BW">
+              <div class="portfolio-info">
+                <h4>Press Kit BW</h4>
+                <a href="assets/img/portfolio/press kit BW.jpg" title="Press Kit BW" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/Axis Uno.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/Axis Uno.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08558.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08558.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08633 (1).JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08633 (1).JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08663.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08663.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08859.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08859.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08873.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08873.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08913.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08913.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC08927.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC08927.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC09032.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC09032.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC09041.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC09041.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/IMG_20241117_010614.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/IMG_20241117_010614.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/IMG_20241117_044021.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/IMG_20241117_044021.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/DSC09044.JPG" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/DSC09044.JPG" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/WhatsApp Image 2024-06-12 at 00.24.18 (1).jpeg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/WhatsApp Image 2024-06-12 at 00.24.18 (1).jpeg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/WhatsApp Image 2024-06-12 at 00.24.18 (2).jpeg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/WhatsApp Image 2024-06-12 at 00.24.18 (2).jpeg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/_DSC8509.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/_DSC8509.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/addb62a6-1835-4ea5-809f-bc8639e8f1c1.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/addb62a6-1835-4ea5-809f-bc8639e8f1c1.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/IMG_20241117_044021.jpg" class="img-fluid" alt="Axis Uno Performance">
+              <div class="portfolio-info">
+                <h4>Live Performance</h4>
+                <a href="assets/img/portfolio/IMG_20241117_044021.jpg" title="Live Performance" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Section -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-content h-100">
+              <div class="video-container">
+                <video controls poster="assets/img/portfolio/DSC08873.JPG" class="img-fluid">
+                  <source src="assets/videos/Video Press Kit Axis.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <div class="contact-content">
+              <h3 class="connect-title mb-5">Connect with Axis Uno</h3>
+              
+              <div class="contact-details mb-5">
+                <div class="contact-item mb-3">
+                  <h4>Email</h4>
+                  <p>
+                    <a href="mailto:axisunobookings@gmail.com" class="text-white">
+                      axisunobookings@gmail.com
+                    </a>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <h4>Bookings & Collaboration</h4>
+                  <p>Send an email for inquiries</p>
+                </div>
+              </div>
+
+              <div class="social-connections">
+                <div class="social-grid">
+                  <a href="https://www.instagram.com/axisuno/" target="_blank" class="social-link">
+                    <i class="bi bi-instagram"></i>
+                    <span>Instagram</span>
+                  </a>
+                  <a href="https://www.youtube.com/@AXISUNO" target="_blank" class="social-link">
+                    <i class="bi bi-youtube"></i>
+                    <span>YouTube</span>
+                  </a>
+                  <a href="https://open.spotify.com/intl-pt/artist/1YIhfD7ZwKfFop8Wu50X7A" target="_blank" class="social-link">
+                    <i class="bi bi-spotify"></i>
+                    <span>Spotify</span>
+                  </a>
+                  <a href="https://soundcloud.com/axisuno" target="_blank" class="social-link">
+                    <i class="bi bi-cloud-music"></i>
+                    <span>SoundCloud</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; 2024 Axis Uno. All Rights Reserved.
+      </div>
+    </div>
+  </footer><!-- /Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    document.getElementById('toggle-language').addEventListener('click', function() {
+      var englishBio = document.getElementById('bio-english');
+      var portugueseBio = document.getElementById('bio-portuguese');
+      
+      if (englishBio.style.display === 'none') {
+        englishBio.style.display = 'block';
+        portugueseBio.style.display = 'none';
+      } else {
+        englishBio.style.display = 'none';
+        portugueseBio.style.display = 'block';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
