@@ -32,3 +32,29 @@ images.forEach(image => {
   colDiv.appendChild(imgDiv);
   portfolioContainer.appendChild(colDiv);
 });
+
+window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    const sections = document.querySelectorAll('section');
+    let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            const activeLink = document.querySelector('nav ul li a.active');
+            if (activeLink) activeLink.classList.remove('active');
+
+            const newActiveLink = document.querySelector(`nav ul li a[href='#${section.id}']`);
+            if (newActiveLink) newActiveLink.classList.add('active');
+
+            // Mudar o cabeçalho com base na seção ativa
+            if(section.id === 'contact') {
+              header.classList.add('scrolled');
+            } else {
+              header.classList.toggle('scrolled', section.id !== 'hero');
+            }
+        }
+    });
+});
